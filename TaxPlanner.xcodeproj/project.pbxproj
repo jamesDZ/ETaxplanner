@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21379FE1ECC699500F62525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21379FD1ECC699500F62525 /* AppDelegate.swift */; };
+		F2137A001ECC699500F62525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21379FF1ECC699500F62525 /* ViewController.swift */; };
+		F2137A031ECC699500F62525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2137A011ECC699500F62525 /* Main.storyboard */; };
+		F2137A051ECC699500F62525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2137A041ECC699500F62525 /* Assets.xcassets */; };
+		F2137A081ECC699500F62525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2137A061ECC699500F62525 /* LaunchScreen.storyboard */; };
+		F2137A131ECC699500F62525 /* TaxPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A121ECC699500F62525 /* TaxPlannerTests.swift */; };
+		F2137A1E1ECC699500F62525 /* TaxPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A1D1ECC699500F62525 /* TaxPlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2137A0F1ECC699500F62525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21379F21ECC699500F62525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21379F91ECC699500F62525;
+			remoteInfo = TaxPlanner;
+		};
+		F2137A1A1ECC699500F62525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21379F21ECC699500F62525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21379F91ECC699500F62525;
+			remoteInfo = TaxPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F21379FA1ECC699500F62525 /* TaxPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21379FD1ECC699500F62525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21379FF1ECC699500F62525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2137A021ECC699500F62525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2137A041ECC699500F62525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2137A071ECC699500F62525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2137A091ECC699500F62525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2137A0E1ECC699500F62525 /* TaxPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2137A121ECC699500F62525 /* TaxPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxPlannerTests.swift; sourceTree = "<group>"; };
+		F2137A141ECC699500F62525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2137A191ECC699500F62525 /* TaxPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2137A1D1ECC699500F62525 /* TaxPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxPlannerUITests.swift; sourceTree = "<group>"; };
+		F2137A1F1ECC699500F62525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21379F71ECC699500F62525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2137A0B1ECC699500F62525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2137A161ECC699500F62525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21379F11ECC699500F62525 = {
+			isa = PBXGroup;
+			children = (
+				F21379FC1ECC699500F62525 /* TaxPlanner */,
+				F2137A111ECC699500F62525 /* TaxPlannerTests */,
+				F2137A1C1ECC699500F62525 /* TaxPlannerUITests */,
+				F21379FB1ECC699500F62525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21379FB1ECC699500F62525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21379FA1ECC699500F62525 /* TaxPlanner.app */,
+				F2137A0E1ECC699500F62525 /* TaxPlannerTests.xctest */,
+				F2137A191ECC699500F62525 /* TaxPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21379FC1ECC699500F62525 /* TaxPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				F21379FD1ECC699500F62525 /* AppDelegate.swift */,
+				F21379FF1ECC699500F62525 /* ViewController.swift */,
+				F2137A011ECC699500F62525 /* Main.storyboard */,
+				F2137A041ECC699500F62525 /* Assets.xcassets */,
+				F2137A061ECC699500F62525 /* LaunchScreen.storyboard */,
+				F2137A091ECC699500F62525 /* Info.plist */,
+			);
+			path = TaxPlanner;
+			sourceTree = "<group>";
+		};
+		F2137A111ECC699500F62525 /* TaxPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2137A121ECC699500F62525 /* TaxPlannerTests.swift */,
+				F2137A141ECC699500F62525 /* Info.plist */,
+			);
+			path = TaxPlannerTests;
+			sourceTree = "<group>";
+		};
+		F2137A1C1ECC699500F62525 /* TaxPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2137A1D1ECC699500F62525 /* TaxPlannerUITests.swift */,
+				F2137A1F1ECC699500F62525 /* Info.plist */,
+			);
+			path = TaxPlannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21379F91ECC699500F62525 /* TaxPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2137A221ECC699500F62525 /* Build configuration list for PBXNativeTarget "TaxPlanner" */;
+			buildPhases = (
+				F21379F61ECC699500F62525 /* Sources */,
+				F21379F71ECC699500F62525 /* Frameworks */,
+				F21379F81ECC699500F62525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxPlanner;
+			productName = TaxPlanner;
+			productReference = F21379FA1ECC699500F62525 /* TaxPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2137A0D1ECC699500F62525 /* TaxPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2137A251ECC699500F62525 /* Build configuration list for PBXNativeTarget "TaxPlannerTests" */;
+			buildPhases = (
+				F2137A0A1ECC699500F62525 /* Sources */,
+				F2137A0B1ECC699500F62525 /* Frameworks */,
+				F2137A0C1ECC699500F62525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2137A101ECC699500F62525 /* PBXTargetDependency */,
+			);
+			name = TaxPlannerTests;
+			productName = TaxPlannerTests;
+			productReference = F2137A0E1ECC699500F62525 /* TaxPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2137A181ECC699500F62525 /* TaxPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2137A281ECC699500F62525 /* Build configuration list for PBXNativeTarget "TaxPlannerUITests" */;
+			buildPhases = (
+				F2137A151ECC699500F62525 /* Sources */,
+				F2137A161ECC699500F62525 /* Frameworks */,
+				F2137A171ECC699500F62525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2137A1B1ECC699500F62525 /* PBXTargetDependency */,
+			);
+			name = TaxPlannerUITests;
+			productName = TaxPlannerUITests;
+			productReference = F2137A191ECC699500F62525 /* TaxPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21379F21ECC699500F62525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "E-SaarTechy";
+				TargetAttributes = {
+					F21379F91ECC699500F62525 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F2137A0D1ECC699500F62525 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F21379F91ECC699500F62525;
+					};
+					F2137A181ECC699500F62525 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F21379F91ECC699500F62525;
+					};
+				};
+			};
+			buildConfigurationList = F21379F51ECC699500F62525 /* Build configuration list for PBXProject "TaxPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21379F11ECC699500F62525;
+			productRefGroup = F21379FB1ECC699500F62525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21379F91ECC699500F62525 /* TaxPlanner */,
+				F2137A0D1ECC699500F62525 /* TaxPlannerTests */,
+				F2137A181ECC699500F62525 /* TaxPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21379F81ECC699500F62525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2137A081ECC699500F62525 /* LaunchScreen.storyboard in Resources */,
+				F2137A051ECC699500F62525 /* Assets.xcassets in Resources */,
+				F2137A031ECC699500F62525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2137A0C1ECC699500F62525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2137A171ECC699500F62525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21379F61ECC699500F62525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2137A001ECC699500F62525 /* ViewController.swift in Sources */,
+				F21379FE1ECC699500F62525 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2137A0A1ECC699500F62525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2137A131ECC699500F62525 /* TaxPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2137A151ECC699500F62525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2137A1E1ECC699500F62525 /* TaxPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2137A101ECC699500F62525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21379F91ECC699500F62525 /* TaxPlanner */;
+			targetProxy = F2137A0F1ECC699500F62525 /* PBXContainerItemProxy */;
+		};
+		F2137A1B1ECC699500F62525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21379F91ECC699500F62525 /* TaxPlanner */;
+			targetProxy = F2137A1A1ECC699500F62525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2137A011ECC699500F62525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2137A021ECC699500F62525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2137A061ECC699500F62525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2137A071ECC699500F62525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2137A201ECC699500F62525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2137A211ECC699500F62525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2137A231ECC699500F62525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-SaarTechy.TaxPlanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2137A241ECC699500F62525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-SaarTechy.TaxPlanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2137A261ECC699500F62525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-SaarTechy.TaxPlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxPlanner.app/TaxPlanner";
+			};
+			name = Debug;
+		};
+		F2137A271ECC699500F62525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-SaarTechy.TaxPlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxPlanner.app/TaxPlanner";
+			};
+			name = Release;
+		};
+		F2137A291ECC699500F62525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TaxPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-SaarTechy.TaxPlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxPlanner;
+			};
+			name = Debug;
+		};
+		F2137A2A1ECC699500F62525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TaxPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-SaarTechy.TaxPlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21379F51ECC699500F62525 /* Build configuration list for PBXProject "TaxPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2137A201ECC699500F62525 /* Debug */,
+				F2137A211ECC699500F62525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2137A221ECC699500F62525 /* Build configuration list for PBXNativeTarget "TaxPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2137A231ECC699500F62525 /* Debug */,
+				F2137A241ECC699500F62525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2137A251ECC699500F62525 /* Build configuration list for PBXNativeTarget "TaxPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2137A261ECC699500F62525 /* Debug */,
+				F2137A271ECC699500F62525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2137A281ECC699500F62525 /* Build configuration list for PBXNativeTarget "TaxPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2137A291ECC699500F62525 /* Debug */,
+				F2137A2A1ECC699500F62525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21379F21ECC699500F62525 /* Project object */;
+}
