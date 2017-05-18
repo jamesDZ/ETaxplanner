@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--TaxPlanner-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TaxPlanner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="TaxPlanner" id="BYZ-38-t0r" customClass="ViewController" customModule="TaxPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -41,6 +41,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="LGt-xx-tel"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGc-DJ-MZn">
                                 <rect key="frame" x="16" y="161" width="343" height="30"/>
@@ -51,6 +54,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="XDg-0s-Gvk"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Middle Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AeZ-wc-SJT">
                                 <rect key="frame" x="16" y="218" width="343" height="30"/>
@@ -61,6 +67,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fhf-fm-4hz"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8gb-F2-BK9">
                                 <rect key="frame" x="16" y="278" width="343" height="30"/>
@@ -71,6 +80,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="H89-9h-ItG"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PTU-at-PC3">
                                 <rect key="frame" x="16" y="338" width="343" height="30"/>
@@ -81,9 +93,12 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="zoz-Wc-Qky"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a9p-D0-p7D">
-                                <rect key="frame" x="16" y="393" width="343" height="30"/>
+                                <rect key="frame" x="16" y="510" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="Pem-jm-mxD"/>
                                     <constraint firstAttribute="height" constant="30" id="nbb-dz-Oqs"/>
@@ -91,6 +106,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="zng-YG-m7B"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Document-1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QTY-Vq-Lqv">
                                 <rect key="frame" x="16" y="393" width="343" height="30"/>
@@ -101,6 +119,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="gmd-Xi-zQJ"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Document-2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qbZ-e6-msH">
                                 <rect key="frame" x="16" y="451" width="343" height="30"/>
@@ -111,9 +132,12 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="gdO-JT-SR2"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM1-64-aXW">
-                                <rect key="frame" x="115" y="538" width="149" height="39"/>
+                                <rect key="frame" x="115" y="563" width="149" height="39"/>
                                 <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="149" id="HMB-2i-xES"/>
@@ -121,9 +145,16 @@
                                 </constraints>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="GIG-fR-AX9" kind="show" id="QQg-Ss-NYK"/>
+                                    <action selector="SaveData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qir-af-TSi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw5-kc-c8g">
+                                <rect key="frame" x="295" y="548" width="56" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -138,7 +169,7 @@
                             <constraint firstItem="sGc-DJ-MZn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="94F-Zs-0q5"/>
                             <constraint firstItem="sGc-DJ-MZn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Ad9-7i-tbJ"/>
                             <constraint firstItem="qbZ-e6-msH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="CSa-Og-ZGF"/>
-                            <constraint firstItem="a9p-D0-p7D" firstAttribute="top" secondItem="PTU-at-PC3" secondAttribute="bottom" constant="25" id="CZS-Hl-PkZ"/>
+                            <constraint firstItem="a9p-D0-p7D" firstAttribute="top" secondItem="PTU-at-PC3" secondAttribute="bottom" constant="142" id="CZS-Hl-PkZ"/>
                             <constraint firstItem="sGc-DJ-MZn" firstAttribute="top" secondItem="peE-64-qGV" secondAttribute="bottom" constant="30" id="EUI-EM-pKp"/>
                             <constraint firstItem="8gb-F2-BK9" firstAttribute="top" secondItem="AeZ-wc-SJT" secondAttribute="bottom" constant="30" id="F0H-La-W53"/>
                             <constraint firstItem="peE-64-qGV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="H9J-EN-rcO"/>
@@ -153,7 +184,7 @@
                             <constraint firstItem="qbZ-e6-msH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="etX-oh-ofv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kuB-qz-7oY" secondAttribute="trailing" constant="109" id="fIJ-sw-4CD"/>
                             <constraint firstItem="PTU-at-PC3" firstAttribute="top" secondItem="8gb-F2-BK9" secondAttribute="bottom" constant="30" id="fv7-zp-Ake"/>
-                            <constraint firstItem="a9p-D0-p7D" firstAttribute="top" secondItem="QTY-Vq-Lqv" secondAttribute="bottom" constant="-30" id="gpg-WX-0Ce"/>
+                            <constraint firstItem="a9p-D0-p7D" firstAttribute="top" secondItem="QTY-Vq-Lqv" secondAttribute="bottom" constant="87" id="gpg-WX-0Ce"/>
                             <constraint firstItem="8gb-F2-BK9" firstAttribute="top" secondItem="AeZ-wc-SJT" secondAttribute="bottom" constant="30" id="gzT-5h-vbM"/>
                             <constraint firstItem="peE-64-qGV" firstAttribute="top" secondItem="kuB-qz-7oY" secondAttribute="bottom" constant="10" id="iUI-Wc-L3t"/>
                             <constraint firstItem="peE-64-qGV" firstAttribute="top" secondItem="kuB-qz-7oY" secondAttribute="bottom" constant="10" id="kuZ-pE-LfF"/>
@@ -161,25 +192,35 @@
                             <constraint firstItem="kuB-qz-7oY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="84" id="pcV-6l-OBl"/>
                             <constraint firstItem="peE-64-qGV" firstAttribute="top" secondItem="kuB-qz-7oY" secondAttribute="bottom" constant="10" id="qUh-pp-j4J"/>
                             <constraint firstItem="peE-64-qGV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qce-Q2-3BU"/>
-                            <constraint firstItem="a9p-D0-p7D" firstAttribute="top" secondItem="PTU-at-PC3" secondAttribute="bottom" constant="25" id="rVb-x4-AEx"/>
+                            <constraint firstItem="a9p-D0-p7D" firstAttribute="top" secondItem="PTU-at-PC3" secondAttribute="bottom" constant="142" id="rVb-x4-AEx"/>
                             <constraint firstItem="sGc-DJ-MZn" firstAttribute="top" secondItem="peE-64-qGV" secondAttribute="bottom" constant="30" id="rdh-Xi-cHS"/>
                             <constraint firstItem="PTU-at-PC3" firstAttribute="top" secondItem="8gb-F2-BK9" secondAttribute="bottom" constant="30" id="rrC-w5-Gwc"/>
                             <constraint firstItem="AeZ-wc-SJT" firstAttribute="top" secondItem="sGc-DJ-MZn" secondAttribute="bottom" constant="27" id="vYY-Rt-9wV"/>
                             <constraint firstItem="qbZ-e6-msH" firstAttribute="top" secondItem="QTY-Vq-Lqv" secondAttribute="bottom" constant="28" id="wEi-t3-wT7"/>
-                            <constraint firstItem="oM1-64-aXW" firstAttribute="top" secondItem="qbZ-e6-msH" secondAttribute="bottom" constant="57" id="wms-IS-cW6"/>
+                            <constraint firstItem="oM1-64-aXW" firstAttribute="top" secondItem="qbZ-e6-msH" secondAttribute="bottom" constant="82" id="wms-IS-cW6"/>
                             <constraint firstItem="AeZ-wc-SJT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ywQ-Sd-zr5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SUM-46-KjE"/>
+                    <connections>
+                        <outlet property="data" destination="hw5-kc-c8g" id="aiF-Fh-YYY"/>
+                        <outlet property="txtAddress" destination="8gb-F2-BK9" id="XLn-eE-Osl"/>
+                        <outlet property="txtAdharnumber" destination="QTY-Vq-Lqv" id="SI9-fq-gqs"/>
+                        <outlet property="txtName" destination="peE-64-qGV" id="BmY-DB-tpE"/>
+                        <outlet property="txtlastName" destination="sGc-DJ-MZn" id="xl7-FJ-M6x"/>
+                        <outlet property="txtmiddleName" destination="AeZ-wc-SJT" id="XLK-dR-xoa"/>
+                        <outlet property="txtphone" destination="PTU-at-PC3" id="XNk-bY-YUa"/>
+                        <outlet property="txtserviceType" destination="qbZ-e6-msH" id="9Dr-ke-0VI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="876" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Upload Files-->
         <scene sceneID="B41-mp-Dvf">
             <objects>
-                <viewController id="GIG-fR-AX9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UploadFile" title="Upload Files" id="GIG-fR-AX9" customClass="Upload_File" customModule="TaxPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wOS-Tm-sC0"/>
                         <viewControllerLayoutGuide type="bottom" id="fkB-Yo-tUu"/>
