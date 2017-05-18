@@ -14,7 +14,7 @@
 		F2137A131ECC699500F62525 /* TaxPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A121ECC699500F62525 /* TaxPlannerTests.swift */; };
 		F2137A1E1ECC699500F62525 /* TaxPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A1D1ECC699500F62525 /* TaxPlannerUITests.swift */; };
 		F2137A2F1ECD612700F62525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A2E1ECD612700F62525 /* ViewController.swift */; };
-		F2137A311ECD615F00F62525 /* Upload_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A301ECD615F00F62525 /* Upload_File.swift */; };
+		F2137A331ECDC5E100F62525 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A321ECDC5E100F62525 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		F2137A1D1ECC699500F62525 /* TaxPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxPlannerUITests.swift; sourceTree = "<group>"; };
 		F2137A1F1ECC699500F62525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2137A2E1ECD612700F62525 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2137A301ECD615F00F62525 /* Upload_File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload_File.swift; sourceTree = "<group>"; };
+		F2137A321ECDC5E100F62525 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				F2137A2E1ECD612700F62525 /* ViewController.swift */,
-				F2137A301ECD615F00F62525 /* Upload_File.swift */,
+				F2137A321ECDC5E100F62525 /* UploadViewController.swift */,
 			);
 			path = ViewClass;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2137A311ECD615F00F62525 /* Upload_File.swift in Sources */,
+				F2137A331ECDC5E100F62525 /* UploadViewController.swift in Sources */,
 				F2137A2F1ECD612700F62525 /* ViewController.swift in Sources */,
 				F21379FE1ECC699500F62525 /* AppDelegate.swift in Sources */,
 			);

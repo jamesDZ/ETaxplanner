@@ -1,5 +1,5 @@
 //
-//  Upload_File.swift
+//  UploadViewController.swift
 //  TaxPlanner
 //
 //  Created by Alok_iOS_Broc on 5/18/17.
@@ -8,10 +8,15 @@
 
 import UIKit
 
-class Upload_File: UIViewController {
+class UploadViewController: UIViewController {
+    
+    var dataValDict = NSMutableDictionary()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Valuess are.. \(dataValDict)")
+
 
         // Do any additional setup after loading the view.
     }
