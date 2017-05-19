@@ -15,6 +15,8 @@
 		F2137A1E1ECC699500F62525 /* TaxPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A1D1ECC699500F62525 /* TaxPlannerUITests.swift */; };
 		F2137A2F1ECD612700F62525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A2E1ECD612700F62525 /* ViewController.swift */; };
 		F2137A331ECDC5E100F62525 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2137A321ECDC5E100F62525 /* UploadViewController.swift */; };
+		F2D376971ECF0D6900638FA8 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D376951ECF0D6900638FA8 /* Messages.framework */; };
+		F2D376981ECF0D6900638FA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D376961ECF0D6900638FA8 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F2137A1F1ECC699500F62525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2137A2E1ECD612700F62525 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2137A321ECDC5E100F62525 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		F2D376951ECF0D6900638FA8 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		F2D376961ECF0D6900638FA8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D376971ECF0D6900638FA8 /* Messages.framework in Frameworks */,
+				F2D376981ECF0D6900638FA8 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				F2137A111ECC699500F62525 /* TaxPlannerTests */,
 				F2137A1C1ECC699500F62525 /* TaxPlannerUITests */,
 				F21379FB1ECC699500F62525 /* Products */,
+				F2D376941ECF0D6900638FA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +141,15 @@
 				F2137A321ECDC5E100F62525 /* UploadViewController.swift */,
 			);
 			path = ViewClass;
+			sourceTree = "<group>";
+		};
+		F2D376941ECF0D6900638FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D376951ECF0D6900638FA8 /* Messages.framework */,
+				F2D376961ECF0D6900638FA8 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

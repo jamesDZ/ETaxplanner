@@ -356,14 +356,20 @@
                                         <rect key="frame" x="255" y="112" width="86" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Upload"/>
+                                        <connections>
+                                            <action selector="uploadSalaryslip:" destination="dZB-Qg-NU2" eventType="touchUpInside" id="iJm-BC-5Xz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuF-Un-9uV">
-                                        <rect key="frame" x="254" y="262" width="88" height="30"/>
+                                        <rect key="frame" x="254" y="218" width="88" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="88" id="zTc-Do-Yw0"/>
                                         </constraints>
                                         <state key="normal" title="Upload"/>
+                                        <connections>
+                                            <action selector="uploadform:" destination="dZB-Qg-NU2" eventType="touchUpInside" id="ZGB-zj-4Bb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdU-87-AzN">
                                         <rect key="frame" x="44" y="354" width="278" height="50"/>
@@ -372,6 +378,9 @@
                                             <constraint firstAttribute="height" constant="50" id="JhC-aa-E5K"/>
                                         </constraints>
                                         <state key="normal" title="Submit"/>
+                                        <connections>
+                                            <action selector="SendEmail:" destination="dZB-Qg-NU2" eventType="touchUpInside" id="Kzs-g0-Cp4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9db-6Y-vcd">
                                         <rect key="frame" x="44" y="421" width="278" height="50"/>
@@ -390,6 +399,10 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqu-Lk-6Fo">
+                                        <rect key="frame" x="63" y="493" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -401,7 +414,7 @@
                                     <constraint firstAttribute="bottom" secondItem="gdU-87-AzN" secondAttribute="bottom" constant="263" id="Jf1-ly-7Iw"/>
                                     <constraint firstItem="vLF-V5-gbu" firstAttribute="top" secondItem="RAT-BM-Q1R" secondAttribute="bottom" constant="22" id="LD7-6E-oZZ"/>
                                     <constraint firstItem="ty9-1a-d8n" firstAttribute="leading" secondItem="fu0-gy-ZHv" secondAttribute="leading" id="Lzq-ax-rTD"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="aaG-L9-LMW" secondAttribute="trailing" constant="18" id="NP1-sP-EXa"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="aaG-L9-LMW" secondAttribute="trailing" constant="26" id="NP1-sP-EXa"/>
                                     <constraint firstItem="ty9-1a-d8n" firstAttribute="leading" secondItem="gdU-87-AzN" secondAttribute="leading" id="Qih-Hj-F8e"/>
                                     <constraint firstItem="fu0-gy-ZHv" firstAttribute="top" secondItem="ty9-1a-d8n" secondAttribute="bottom" constant="17" id="S2q-Fz-tgu"/>
                                     <constraint firstItem="ty9-1a-d8n" firstAttribute="leading" secondItem="vLF-V5-gbu" secondAttribute="leading" id="U0u-Cg-7Bb"/>
@@ -426,6 +439,9 @@
                             <constraint firstItem="J2S-sp-GVf" firstAttribute="top" secondItem="E5X-fW-grH" secondAttribute="top" id="WBt-3W-wWp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imagePicked" destination="hqu-Lk-6Fo" id="bE8-e0-Rkh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cxb-4R-rhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
